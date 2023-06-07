@@ -1,13 +1,10 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-
+import Slots from "./Slots";
 function App() {
   return (
-    <>
-      <h1>Hello World!</h1>
-    </>
+    <div>
+      <Slots val1="😄" val2="😄" val3="😄" />
+    </div>
   );
 }
 
